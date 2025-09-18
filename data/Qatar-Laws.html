@@ -1,0 +1,1681 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://analytics.twitter.com https://connect.facebook.net https://googleads.g.doubleclick.net https://static.ads-twitter.com https://www.googletagmanager.com https://platform.twitter.com https://cdn.syndication.twimg.com https://www.google.com https://www.gstatic.com " />
+    <meta name="keywords" content="Documents">
+    <meta name="description" content="Documents">
+    <title>Documents</title>
+    
+<meta name="VIcurrentDateTime" content="638938354200319947" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+
+<link href="/assets/cra/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen" />
+
+    <link href="/assets/cra/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/assets/cra/css/bootstrap-datepicker.standalone.min.css" rel="stylesheet" />
+    <link href="/assets/cra/css/animations.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/assets/cra/css/lightslider.min.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="/assets/cra/js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="/assets/cra/js/jquery.cookie.min.js"></script>
+    <script src="/assets/cra/js/bootstrap.min.js"></script>
+    <script src="/assets/cra/js/popper.min.js"></script>
+    <script src="/assets/cra/js/lightslider.min.js"></script>
+    <script src="/assets/cra/js/bootstrap-datepicker.min.js"></script>
+    <script src="/assets/cra/js/css3-animate-it.js"></script>
+    <script src="/assets/cra/js/bootstrap-combobox.js"></script>
+    <link id="blind" disabled="disabled" rel="stylesheet" type="text/css" href="/assets/cra/css/blind.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PQ933JN');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body>
+
+	<link href="/assets/cra/css/botchat.css" rel="stylesheet" />
+	<div id="chatControl" style="display:none">
+  <div class="chatIcon"> <img src="/assets/cra/images/Chatbot-Hover-Icon.png" /> </div>
+</div>
+	<div id="chatArea" style="display:none">
+  <div class="TopHead">
+    <div class="TopHead-flex"> <img src="/assets/cra/images/cra-logo.jpg" /> <span>Automated Support Agent </span> </div>
+    <div class="TopHead-flex"> <span class="refresh-icon"><a href="#" id="refreshChat"> <span class="fa fa-refresh"></span> </a> </span> <span class="close-icon"><i class="fa fa-minus" id="closeChat" aria-hidden="true"> </i></span> </div>
+  </div>
+  <div class="bodyChatArea" style="display:none">
+    <iframe name="myIframe" id="myIframe" src="https://bot-app-prd-001.azurewebsites.net/default_tmp.htm"></iframe>
+    <span class="sendSpan"></span> <span class="attachSpan"></span> </div>
+</div>
+
+
+<div class="skipNav">
+	<button class="skipLink en" type="button" dir="ltr" lang="en">Skip Navigation</button>
+	<button class="skipLink ar" type="button" dir="rtl" lang="ar">تجاوز إلى المحتوى الرئيسي </button>
+</div>
+
+    
+<header>
+    <div class="container-fluid px-lg-5 topNav">
+        <div class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand" href="/">
+                
+
+<img src="/-/media/CRA/HomeServicesIcon/CRAlogo.ashx?h=58&amp;la=en&amp;w=299&amp;hash=CEFBACD3C9B011FAE4D0F7363A291A90A88D7B6E" alt="" width="299" height="58" DisableWebEdit="False" />
+            </a>
+            <ul class="navbar-nav ml-auto  mt-2 mt-lg-0 headerIcons">
+                <!-- App Icons Start -->
+                <li class="nav-item border-right">
+                    <a class="d-inline-block fs-22 mx-2" href="https://apps.apple.com/us/app/arsel/id835136665" style=""><span class="fa fa-apple"></span> <span class="sr-only">Download Ios App</span></a>
+                    <a class="d-inline-block fs-22 mx-2" href="https://play.google.com/store/apps/details?id=com.ids.ict&amp;hl=en"><span class="fa fa-android" style=""></span> <span class="sr-only">Download Android App</span></a>
+                </li>
+                <!-- End -->
+                <li class="nav-item border-right">
+                    
+                <a id="langSel" href="/ar-QA/document" class="nav-link-new mx-2" style="font-size: 22px;">ع</a>
+
+                </li>
+                <li class="nav-item border-right px-1 txtSizeBtns">
+                    <!-- <a class="nav-link-new" href="#">
+            <span class="sr-only">Text Size Bigger</span>
+            <img src="/assets/cra/images/big_A.png" id="tPlus" alt="Text Size Bigger" aria-hidden="true" />
+        </a><a class="nav-link-new" href="#">
+            <span class="sr-only">Text Size Smaller</span>
+            <img src="/assets/cra/images/small_A.png" id="tMinus" alt="Text Size Smaller" aria-hidden="true" />
+        </a> -->
+
+                    <a class="nav-link-new" href="#" style="font-size: 1.2rem;" id="txtPlus">
+                        <span class="sr-only">Text Size Bigger</span>
+                        A+
+                    </a>
+                    <a class="nav-link-new" href="#" style="font-size: 1rem;" id="txtReset">
+                        <span class="sr-only">Text Size Normal</span>
+                        A
+                    </a>
+                    <a class="nav-link-new" href="#" style="font-size: 0.8rem;" id="txtMinus">
+                        <span class="sr-only">Text Size Smaller</span>
+                        A-
+                    </a>
+
+                </li>
+                
+            </ul>
+            <form class="form-inline my-2 my-lg-0 position-relative header-form-inline" action="/search">
+	<label for="headerSearch" class="sr-only">Search</label>
+    <input id="headerSearch" class="form-control mr-sm-2 headerSearch" name="q" type="search" placeholder="Search">
+	<button type="submit" class="btn headerSearchBtn"><span class="sr-only">Search</span><i aria-hidden="true" class="fa fa-search"></i></button>
+<input type="hidden" name="__ncforminfo" value="21MD_vT_ceetZPHtI7FTAb5NubcLKAFK79z_DyMSn6U-s8GVfHC6CjpWaJZlzhWZi3dwAi7veAPvJ2N-kpMcEdsZcQn-H_8J"/></form>
+
+        </div>
+        
+    </div>
+</header>
+
+
+<!--
+<style>
+.dropdown-toggle1::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+</style>
+-->
+
+<div class="mainNav">
+    <div id="menu_area" class="menu-area ">
+        <div class="container">
+            <div class="row">
+                <nav role="navigation" class="navbar navbar-light navbar-expand-lg mainmenu">
+                    <button class="navbar-toggler openNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="sr-only">Toggle Navigation</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto justify-content-center">
+                            <li class="active"><a href="/"><span class="sr-only">Navigate to homepage</span><img aria-hidden="true" alt="home page" src="/assets/cra/images/home.png" /></a></li>
+                                                    <li class="dropdown " selectedid="/en/about-us">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="/en/about-us" id="_en_about-us">About CRA</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_about-us">
+                                                                    <li selectedid="/en/about-us/vision-mission">
+                                                                        <a href="/en/about-us/vision-mission">
+                                                                            Vision &amp; Mission
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/about-us/Authority-President">
+                                                                        <a href="/en/about-us/Authority-President">
+                                                                            President of the Communications Regulatory Authority
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/about-us/President-Message">
+                                                                        <a href="/en/about-us/President-Message">
+                                                                            CRA President&#39;s Message
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="#" id="_en_about-us_International-Affairs">International Affairs </a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_about-us_International-Affairs">
+                                                                                <li selectedid="/en/about-us/International-Affairs/Affilations" class="">
+                                                                                    <a href="/en/about-us/International-Affairs/Affilations" class="">
+                                                                                        Affiliations
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="dropdown " selectedid="/en/Law-and-Regulations">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="#" id="_en_Law-and-Regulations">Law and Regulations</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_Law-and-Regulations">
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Law-and-Regulations/Legal-References" id="_en_Law-and-Regulations_Legal-References">Legal References</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Law-and-Regulations_Legal-References">
+                                                                                <li selectedid="/en/Law-and-Regulations/Legal-References/The-Emiri-Decree-42-of-2014" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Legal-References/The-Emiri-Decree-42-of-2014" class="">
+                                                                                        EMIRI DECISION
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Legal-References/The-Telecommunications-Law-34-of-2006" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Legal-References/The-Telecommunications-Law-34-of-2006" class="">
+                                                                                        Telecommunications Law
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Legal-References/By-Law" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Legal-References/By-Law" class="">
+                                                                                        Telecommunications By-Law
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Legal-References/Law-Regulating-Postal-Service" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Legal-References/Law-Regulating-Postal-Service" class="">
+                                                                                        Postal Services Regulation Law
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Law-and-Regulations/Policies-and-Strategy" id="_en_Law-and-Regulations_Policies-and-Strategy">Policies and Strategy</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Law-and-Regulations_Policies-and-Strategy">
+                                                                                <li selectedid="/en/Law-and-Regulations/Policies-and-Strategy/Cloud-Policy" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Policies-and-Strategy/Cloud-Policy" class="">
+                                                                                        Cloud Policy
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Policies-and-Strategy/Competition-Framework" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Policies-and-Strategy/Competition-Framework" class="">
+                                                                                        Competition Framework
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Policies-and-Strategy/Consumer-Protection-Policy" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Policies-and-Strategy/Consumer-Protection-Policy" class="">
+                                                                                        Consumer Protection Policy
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Policies-and-Strategy/Internet-Domain-Policy" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Policies-and-Strategy/Internet-Domain-Policy" class="">
+                                                                                        Internet Domain Policy
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Policies-and-Strategy/Qos-Policy" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Policies-and-Strategy/Qos-Policy" class="">
+                                                                                        QoS Policy
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Law-and-Regulations/Regulatory-Framework" id="_en_Law-and-Regulations_Regulatory-Framework">Regulatory Framework</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Law-and-Regulations_Regulatory-Framework">
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions" class="dropdown">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions" class="dropdown-toggle">
+                                                                                        Decisions
+                                                                                    </a>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                    <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions/President-Decision-No-13-of-2020">
+                                                                                                        <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions/President-Decision-No-13-of-2020">
+                                                                                                            President Decision No. (13) of 2020 – Cell Broadcast Orders
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions/CRA-Issues-a-Class-License-related-to-Wi-Fi-6E">
+                                                                                                        <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions/CRA-Issues-a-Class-License-related-to-Wi-Fi-6E">
+                                                                                                            CRA Issues a Class License related to Wi-Fi 6E
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions/The-Financial-Sanctions-Committee-Decisions-No-1-and-4">
+                                                                                                        <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions/The-Financial-Sanctions-Committee-Decisions-No-1-and-4">
+                                                                                                            The Financial Sanctions Committee at the CRA Imposes 3.5 million Qatari Riyals as Financial Sanction on Ooredoo Qatar for Violating Instructions Issued by the CRA
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions/Committee-of-the-QIXP">
+                                                                                                        <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions/Committee-of-the-QIXP">
+                                                                                                            Decisions of Establishing the Steering Committee of the QIXP and naming the Head and Members.
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Decisions/Amended-Order-for-the-Implementation-of-Fixed-Number-Portability">
+                                                                                                        <a href="/en/Law-and-Regulations/Regulatory-Framework/Decisions/Amended-Order-for-the-Implementation-of-Fixed-Number-Portability">
+                                                                                                            Amended Order for the Implementation of Fixed Number Portability
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                            </ul>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Retail-Tariff-Instruction" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/Retail-Tariff-Instruction" class="">
+                                                                                        Retail Tariff Instruction
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Dispute-Resolution" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/Dispute-Resolution" class="">
+                                                                                        Dispute Resolution
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/National-Frequency-Allocation-Plan" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/National-Frequency-Allocation-Plan" class="">
+                                                                                        National Frequency Allocation Plan
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Cost-of-Capital" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/Cost-of-Capital" class="">
+                                                                                        Cost of Capital
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/Advertising-Code" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/Advertising-Code" class="">
+                                                                                        Advertising Code
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Regulatory-Framework/QoS-and-Coverage-Mobile-Network-Audit-for-2017" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Regulatory-Framework/QoS-and-Coverage-Mobile-Network-Audit-for-2017" class="">
+                                                                                        Quality of Service Audit
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Law-and-Regulations/Public-Consultations" id="_en_Law-and-Regulations_Public-Consultations">Public Consultations</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Law-and-Regulations_Public-Consultations">
+                                                                                <li selectedid="/en/Law-and-Regulations/Public-Consultations/Archive" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Public-Consultations/Archive" class="">
+                                                                                        Archive
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Law-and-Regulations/Public-Consultations/Current" class="">
+                                                                                    <a href="/en/Law-and-Regulations/Public-Consultations/Current" class="">
+                                                                                        Current
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="dropdown " selectedid="/en/Services">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="/en/Services" id="_en_Services">Services</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services">
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/General" id="_en_Services_General">General</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_General">
+                                                                                <li selectedid="/en/Services/General/Consumer" class="dropdown">
+                                                                                    <a href="/en/Services/General/Consumer" class="dropdown-toggle">
+                                                                                        Consumer
+                                                                                    </a>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                    <li selectedid="/en/Services/General/Consumer/Arsel-Mobile-App">
+                                                                                                        <a href="/en/Services/General/Consumer/Arsel-Mobile-App">
+                                                                                                            Arsel Mobile App
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/General/Consumer/Complaint-Process">
+                                                                                                        <a href="/en/Services/General/Consumer/Complaint-Process">
+                                                                                                            CRA&#39;s Complaint Process
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/General/Consumer/Consumer-Handbook">
+                                                                                                        <a href="/en/Services/General/Consumer/Consumer-Handbook">
+                                                                                                            Consumer Handbook
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/General/Consumer/Roaming-Guides-Tips">
+                                                                                                        <a href="/en/Services/General/Consumer/Roaming-Guides-Tips">
+                                                                                                            Roaming Guides &amp; Tips
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                            </ul>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/General/Import-Authorization-License" class="">
+                                                                                    <a href="/en/Services/General/Import-Authorization-License" class="">
+                                                                                        Import Authorization License
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/General/Type-Approval" class="">
+                                                                                    <a href="/en/Services/General/Type-Approval" class="">
+                                                                                        Type Approval
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/General/Custom-Clearance" class="">
+                                                                                    <a href="/en/Services/General/Custom-Clearance" class="">
+                                                                                        Custom Clearance
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/General/Training-Courses" class="">
+                                                                                    <a href="/en/Services/General/Training-Courses" class="">
+                                                                                        Training Courses
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/Domains" id="_en_Services_Domains">Domain Management</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_Domains">
+                                                                                <li selectedid="/en/Services/Domains/Become-A-Registrar" class="">
+                                                                                    <a href="/en/Services/Domains/Become-A-Registrar" class="">
+                                                                                        Become an Accredited Registrar 
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Domains/Accredited-Registrars" class="">
+                                                                                    <a href="/en/Services/Domains/Accredited-Registrars" class="">
+                                                                                        Accredited Registrars 
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Domains/Registrants" class="">
+                                                                                    <a href="/en/Services/Domains/Registrants" class="">
+                                                                                        Registrants 
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Domains/FAQs" class="">
+                                                                                    <a href="/en/Services/Domains/FAQs" class="">
+                                                                                        FAQs
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Domains/Check-A-Domain" class="">
+                                                                                    <a href="/en/Services/Domains/Check-A-Domain" class="">
+                                                                                        Check Domain Availability
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/Telecommunications" id="_en_Services_Telecommunications">Telecommunications</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_Telecommunications">
+                                                                                <li selectedid="/en/Services/Telecommunications/Licensing" class="dropdown">
+                                                                                    <a href="/en/Services/Telecommunications/Licensing" class="dropdown-toggle">
+                                                                                        Licensing
+                                                                                    </a>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Licensing/Individual-Licenses">
+                                                                                                        <a href="/en/Services/Telecommunications/Licensing/Individual-Licenses">
+                                                                                                            Individual Licenses
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Licensing/Spectrum-Licensing">
+                                                                                                        <a href="/en/Services/Telecommunications/Licensing/Spectrum-Licensing">
+                                                                                                            Spectrum Licensing
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Licensing/Licensees">
+                                                                                                        <a href="/en/Services/Telecommunications/Licensing/Licensees">
+                                                                                                            Licensees
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                            </ul>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Telecommunications/Numbering-Management" class="dropdown">
+                                                                                    <a href="/en/Services/Telecommunications/Numbering-Management" class="dropdown-toggle">
+                                                                                        Numbering Management
+                                                                                    </a>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Numbering-Management/Fixed-Number-Portability">
+                                                                                                        <a href="/en/Services/Telecommunications/Numbering-Management/Fixed-Number-Portability">
+                                                                                                            Fixed Number Portability
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Numbering-Management/National-Numbering-Plan">
+                                                                                                        <a href="/en/Services/Telecommunications/Numbering-Management/National-Numbering-Plan">
+                                                                                                            National Numbering plan 
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Numbering-Management/Numbering-Regulations">
+                                                                                                        <a href="/en/Services/Telecommunications/Numbering-Management/Numbering-Regulations">
+                                                                                                            Numbering Regulations
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Telecommunications/Numbering-Management/Mobile-Number-Portability">
+                                                                                                        <a href="/en/Services/Telecommunications/Numbering-Management/Mobile-Number-Portability">
+                                                                                                            Mobile Number Portability
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                            </ul>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Telecommunications/Spectrum-Management" class="">
+                                                                                    <a href="/en/Services/Telecommunications/Spectrum-Management" class="">
+                                                                                        Spectrum Management
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Telecommunications/e-Spectrum-Services-Portal" class="">
+                                                                                    <a href="/en/Services/Telecommunications/e-Spectrum-Services-Portal" class="">
+                                                                                        e-Spectrum Services Portal
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/Emerging-Technologies" id="_en_Services_Emerging-Technologies">Emerging Technologies</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_Emerging-Technologies">
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/5G" class="">
+                                                                                    <a href="/en/Services/Emerging-Technologies/5G" class="">
+                                                                                        5G
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/ICT-Webinars" class="">
+                                                                                    <a href="/en/Services/Emerging-Technologies/ICT-Webinars" class="">
+                                                                                        ICT Webinars
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/M2M" class="">
+                                                                                    <a href="/en/Services/Emerging-Technologies/M2M" class="">
+                                                                                        M2M
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/IOTs" class="">
+                                                                                    <a href="/en/Services/Emerging-Technologies/IOTs" class="">
+                                                                                        IOTs
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce" class="dropdown">
+                                                                                    <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce" class="dropdown-toggle">
+                                                                                        IPv6
+                                                                                    </a>
+                                                                                            <ul class="dropdown-menu">
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/Qatar-National-IPv6-Taskforce">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/Qatar-National-IPv6-Taskforce">
+                                                                                                            Qatar National IPv6 Taskforce
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Dual-Stack-Implementation-Guidelines">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Dual-Stack-Implementation-Guidelines">
+                                                                                                            IPv6 Dual Stack Implementation Guidelines
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-National-Implementation-Strategy">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-National-Implementation-Strategy">
+                                                                                                            IPv6 National Implementation Strategy
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Taskforce-Members">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Taskforce-Members">
+                                                                                                            IPv6 Taskforce Members
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Testing-Labs-Access-Processes-and-Procedures">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/IPv6-Testing-Labs-Access-Processes-and-Procedures">
+                                                                                                            IPv6 Testing Labs Access Processes and Procedures
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                                    <li selectedid="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/Statistics">
+                                                                                                        <a href="/en/Services/Emerging-Technologies/IPv6-Qatar-Taskforce/Statistics">
+                                                                                                            Statistics
+                                                                                                        </a>
+                                                                                                    </li>
+                                                                                            </ul>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Emerging-Technologies/Smart-Cities" class="">
+                                                                                    <a href="/en/Services/Emerging-Technologies/Smart-Cities" class="">
+                                                                                        Smart Cities
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/ICT-Business" id="_en_Services_ICT-Business">ICT Businesses</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_ICT-Business">
+                                                                                <li selectedid="/en/Services/ICT-Business/ICT-Sector-Research-Report" class="">
+                                                                                    <a href="/en/Services/ICT-Business/ICT-Sector-Research-Report" class="">
+                                                                                        ICT Sector Research 
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/ICT-Business/ICT-Classification" class="">
+                                                                                    <a href="/en/Services/ICT-Business/ICT-Classification" class="">
+                                                                                        ICT Classification
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/ICT-Business/ICT-Business-List" class="">
+                                                                                    <a href="/en/Services/ICT-Business/ICT-Business-List" class="">
+                                                                                        ICT Business Directory 
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/ICT-Business/ICT-Registration-Form-Landing" class="">
+                                                                                    <a href="/en/Services/ICT-Business/ICT-Registration-Form-Landing" class="">
+                                                                                        ICT Registration Form
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Services/Trust-Services" id="_en_Services_Trust-Services">Trust Services</a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Services_Trust-Services">
+                                                                                <li selectedid="/en/Services/Trust-Services/Introduction" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Introduction" class="">
+                                                                                        Introduction
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Law-and-Regulations" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Law-and-Regulations" class="">
+                                                                                        Decision and Regulations
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Technical-Specifications" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Technical-Specifications" class="">
+                                                                                        Technical Specifications
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Qatar-Trust-Mark" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Qatar-Trust-Mark" class="">
+                                                                                        Qatar Trust Mark
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Qatar-Trusted-List" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Qatar-Trusted-List" class="">
+                                                                                        Qatar Trusted List
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Guidelines" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Guidelines" class="">
+                                                                                        Guidelines
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Forms" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Forms" class="">
+                                                                                        Forms
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/Contact-Information" class="">
+                                                                                    <a href="/en/Services/Trust-Services/Contact-Information" class="">
+                                                                                        Contact Information
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Services/Trust-Services/FAQ" class="">
+                                                                                    <a href="/en/Services/Trust-Services/FAQ" class="">
+                                                                                        FAQs
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="dropdown " selectedid="/en/Reports-and-Publications">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="/en/Reports-and-Publications" id="_en_Reports-and-Publications">Reports and Publications</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_Reports-and-Publications">
+                                                                    <li selectedid="/en/Reports-and-Publications/CRA-Annual-Reports">
+                                                                        <a href="/en/Reports-and-Publications/CRA-Annual-Reports">
+                                                                            CRA Annual Reports
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Reports-and-Publications/Publications">
+                                                                        <a href="/en/Reports-and-Publications/Publications">
+                                                                            Publications
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="dropdown">
+                                                                        <a aria-haspopup="true" class="dropdown-toggle1" href="/en/Reports-and-Publications/Satisfaction-Surveys" id="_en_Reports-and-Publications_Satisfaction-Surveys">Surveys Reports </a>
+                                                                        <ul class="dropdown-menu" aria-labelledby="_en_Reports-and-Publications_Satisfaction-Surveys">
+                                                                                <li selectedid="/en/Reports-and-Publications/Satisfaction-Surveys/Business-Consumer-Satisfaction-Survey-Reports" class="">
+                                                                                    <a href="/en/Reports-and-Publications/Satisfaction-Surveys/Business-Consumer-Satisfaction-Survey-Reports" class="">
+                                                                                        Business Consumer Satisfaction Survey Reports
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Reports-and-Publications/Satisfaction-Surveys/Consumer-Satisfaction-Survey-Reports" class="">
+                                                                                    <a href="/en/Reports-and-Publications/Satisfaction-Surveys/Consumer-Satisfaction-Survey-Reports" class="">
+                                                                                        Consumer Satisfaction Survey Reports
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Reports-and-Publications/Satisfaction-Surveys/Mini-Surveys-Reports" class="">
+                                                                                    <a href="/en/Reports-and-Publications/Satisfaction-Surveys/Mini-Surveys-Reports" class="">
+                                                                                        Mini Surveys Reports
+                                                                                    </a>
+
+                                                                                </li>
+                                                                                <li selectedid="/en/Reports-and-Publications/Satisfaction-Surveys/Mini-Survey" class="">
+                                                                                    <a href="/en/Reports-and-Publications/Satisfaction-Surveys/Mini-Survey" class="">
+                                                                                        Survey
+                                                                                    </a>
+
+                                                                                </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li selectedid="/en/Reports-and-Publications/ICT-Sector-Research-Reports">
+                                                                        <a href="/en/Reports-and-Publications/ICT-Sector-Research-Reports">
+                                                                            ICT Sector Research Report
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Reports-and-Publications/International-Retail-Price-Benchmarking-Report">
+                                                                        <a href="/en/Reports-and-Publications/International-Retail-Price-Benchmarking-Report">
+                                                                            International Retail Price Benchmarking Reports
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Reports-and-Publications/Quarterly-Report">
+                                                                        <a href="/en/Reports-and-Publications/Quarterly-Report">
+                                                                            Quarterly Reports
+                                                                        </a>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                                                    <li class="dropdown " selectedid="/en/Postal-Sector">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="/en/Postal-Sector" id="_en_Postal-Sector">Postal Sector</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_Postal-Sector">
+                                                                    <li selectedid="/en/Postal-Sector/Law-Regulating-Postal-Services">
+                                                                        <a href="/en/Postal-Sector/Law-Regulating-Postal-Services">
+                                                                            Law Regulating Postal Services 
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/Consultations">
+                                                                        <a href="/en/Postal-Sector/Consultations">
+                                                                            Consultations
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/Policies">
+                                                                        <a href="/en/Postal-Sector/Policies">
+                                                                            Policies
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/Regulations">
+                                                                        <a href="/en/Postal-Sector/Regulations">
+                                                                            Regulations
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/Compliance">
+                                                                        <a href="/en/Postal-Sector/Compliance">
+                                                                            Compliance
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/Decisions">
+                                                                        <a href="/en/Postal-Sector/Decisions">
+                                                                            Decisions
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/License-Templates">
+                                                                        <a href="/en/Postal-Sector/License-Templates">
+                                                                            License Templates
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/List-of-Licensees">
+                                                                        <a href="/en/Postal-Sector/List-of-Licensees">
+                                                                            List of Licensees
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/CRA-Complaint-Process-for-the-Postal-Services">
+                                                                        <a href="/en/Postal-Sector/CRA-Complaint-Process-for-the-Postal-Services">
+                                                                            CRA Complaint Process for the Postal Services
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Postal-Sector/FAQs">
+                                                                        <a href="/en/Postal-Sector/FAQs">
+                                                                            FAQs
+                                                                        </a>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                                                    <li selectedid="/en/Document">
+                                                        <a href="/en/Document">
+                                                            Documents
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown " selectedid="/en/Media">
+                                                        <a aria-haspopup="true" class="dropdown-toggle" href="/en/Media" id="_en_Media">Media Center</a>
+                                                        <ul class="dropdown-menu" aria-labelledby="_en_Media">
+                                                                    <li selectedid="/en/Media/Press-Releases">
+                                                                        <a href="/en/Media/Press-Releases">
+                                                                            Press Releases
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Media/Web-Story">
+                                                                        <a href="/en/Media/Web-Story">
+                                                                            Web Story
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Media/Newsletter">
+                                                                        <a href="/en/Media/Newsletter">
+                                                                            Newsletter
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Media/Event">
+                                                                        <a href="/en/Media/Event">
+                                                                            Events
+                                                                        </a>
+                                                                    </li>
+                                                                    <li selectedid="/en/Media/Media-Gallery">
+                                                                        <a href="/en/Media/Media-Gallery">
+                                                                            Media Gallery
+                                                                        </a>
+                                                                    </li>
+
+                                                        </ul>
+
+                                                    </li>
+                        </ul>
+
+                        <button style="font-size: 1rem;" class="navbar-toggler closeNav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Close Navigation">
+                            X
+                        </button>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+
+
+<div class="carousel-sub " >
+    <div class="container-fluid px-lg-5">
+        <h1 class="h2">Documents </h1>
+        <ul class="breadcrumbs">
+            <li> <a href="/en"  title="CRA-Home">CRA-Home</a><li class="active">Documents</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container-fluid pt-3 px-lg-5">
+    <p class="smallHeading">Filter By</p>
+    <div class="filterBox">
+
+        <form class="row">
+            <div class="col-xl-4 col-md-6">
+
+                <div class="form-group row">
+                    <label for="q" class="col-xl-3 col-form-label text-xl-right">Search</label>
+                    <div class="col-xl-9">
+                        <input class="form-control" id="q" name="q" placeholder="Type your search here" type="text" value="" />
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="form-group row">
+                    <label for="fa" class="col-xl-5 col-form-label text-xl-right">Document Type</label>
+                    <div class="col-xl-7">
+
+                        
+						<select class="form-control combobox" id="fa" name="fa"><option value="0">Select Document Type</option>
+<option value="{0E247B05-849A-43C2-A1E8-9AD5E5899462}">Amiri Decision</option>
+<option value="{84A46D4F-5421-4B73-98C6-156935DCFA34}">Amiri Decree </option>
+<option value="{6243B135-394C-4F2F-BC9C-6CFE5669CAA7}">Annual Report</option>
+<option value="{CB375423-C629-4884-B026-8E28BEB8E3C6}">Articles of Association</option>
+<option value="{A99140EB-806F-44CC-96E3-F0AB262A926C}">Attachment to the above Orders</option>
+<option value="{8239D0DA-8D61-4683-BE38-F3466FAF8417}">Authorisation</option>
+<option value="{8CB7DCC9-F6C4-426B-B674-6A0AF56B7D83}">Authorization</option>
+<option value="{156FB179-A19C-4CD9-9A41-F2970C12728F}">By Law</option>
+<option value="{BA6A1C80-DFA6-4984-BDC5-86A3BDA3097F}">Cabinet Decision</option>
+<option value="{4258284F-4A57-4BBC-BA76-669DA8AA9701}">Clarification</option>
+<option value="{D07BD9BB-AF52-4796-9590-ABBD5091F107}">Closure Letters</option>
+<option value="{98958C4C-B251-4DE8-8E97-9377C68B66DA}">Code</option>
+<option value="{519D9C20-81D6-451A-9723-7DCF6BD1769F}">Constitution</option>
+<option value="{80505398-E7E1-4E09-90B4-B2E3E0B0D669}">Consultation</option>
+<option value="{810A342D-7D8C-4B2E-98BB-9A819E6CD931}">Consultation/ Notice and Order</option>
+<option value="{02566928-0D06-4D0E-A2F8-77FD3F13801B}">Consultation Response Document</option>
+<option value="{D4F9B702-6EB1-4385-8B19-B4C0B844D3AB}">Decision</option>
+<option value="{898E46DE-8518-4563-AD3F-7FD1D414CD2A}">Decision &amp; Orders</option>
+<option value="{306484CB-8A99-48F9-87D5-008C0C900B3A}">Decision and Instructions</option>
+<option value="{0F18CDA4-A6B1-40A6-8B94-418B82243A3D}">Decision and Orders</option>
+<option value="{D7EEB48F-72ED-4A23-A931-100DD508562F}">Determination</option>
+<option value="{0B5B6D08-A867-4532-A9C8-AC8BEAFAB523}">Direction and Instruction</option>
+<option value="{308EAF39-DB9B-4BB4-8AD9-96B0FB23FE02}">Direction and Orders</option>
+<option value="{080AD5AB-E1EC-405A-A35E-2AEE37A9C0B2}">Economic Analysis and Response Documents</option>
+<option value="{E0A21489-ABDF-430E-92F0-42982D1C3967}">Explanatory Document</option>
+<option value="{65BC352D-90B5-479E-AD71-AE82AFF37A73}">Guidelines</option>
+<option value="{27464FDE-2B5E-46B3-B7AE-1E4B36B5DBB0}">Guides</option>
+<option value="{A2998EF4-5DE4-45DD-897A-BD156F6DDD0B}">Guidleines</option>
+<option value="{1B76FEBB-F1DB-4DB2-9DF5-B4A8DD6ED1FA}">ICT Survey Report</option>
+<option value="{AB2028EC-56B1-41C1-976B-7E9B95DB3406}">Instruction</option>
+<option value="{47051D3A-F886-4F74-98E9-47C0E32A8263}">Instruction and Order</option>
+<option value="{3FE50F68-0872-46C0-9BBB-A3164601480C}">Instructions</option>
+<option value="{21E2A662-6803-4D48-A6ED-1CECA5AE29E1}">Instructions and Orders</option>
+<option value="{460B7B9E-EA19-41C9-AE96-7ACC5348A248}">Law</option>
+<option value="{1A527078-6D26-4A9A-8A1C-2538BAAD2457}">Legislation and regulation and decisions</option>
+<option value="{5229E2C6-04B8-4DB1-A48D-30D458C2A73C}">Letter</option>
+<option value="{989A3C88-5D5E-4053-BFEE-DDB3C655D318}">License</option>
+<option value="{278BB9A6-82AC-4D46-B4CD-AC2DC7D8A23D}">Licenses</option>
+<option value="{657527F9-AB14-4666-8B46-F3D35843172C}">Market Competition Report</option>
+<option value="{971314DC-69DF-4C14-82FA-9FB981D295BD}">Ministerial Resolution</option>
+<option value="{C650B680-A646-412B-B932-EF05ED062C9A}">Minister&#39;s Decision</option>
+<option value="{E876CF64-1DC4-4277-BDF4-B8BC90F9CA8B}">National Plan</option>
+<option value="{8D4F6AC8-94DA-4ED8-91C4-EA342EEB5BF8}">National Policy</option>
+<option value="{DBEA51D3-3E5C-4C08-AE4F-5276090DA19C}">National Strategy</option>
+<option value="{4724F722-2B8A-4FF3-B148-5EA0F9D8B1DF}">National Vision</option>
+<option value="{51579104-5821-48C5-AF51-EFA3780E222F}">Non-Compliance Notice</option>
+<option value="{2F44BEE7-7C86-4A56-B9D7-138E5470C4E8}">Notice</option>
+<option value="{FC556195-C88F-4F0F-8EB5-35F969FA408A}">Notice and Directions</option>
+<option value="{4C295729-770D-4101-AD8B-A8866F963EBF}">Notice and Orders</option>
+<option value="{C513A999-A5B8-44E4-BD82-D48B786C8B5C}">Notice and Rules</option>
+<option value="{36CAA372-E2A7-4BCB-9E8E-0DEA221E33E0}">Notice of Non-Compliance</option>
+<option value="{28BE5592-6A06-49D4-B6AC-A1AA7DE1C166}">Notice of Warning</option>
+<option value="{92B0891E-57E3-4758-8870-10307E2EE970}">Notice of Withdrawal of Non-Compliance</option>
+<option value="{0DBC058A-E0F9-4E44-A78F-C1B228F9150C}">Order</option>
+<option value="{DC0E5A08-5F92-4154-8D0C-7AD9B97EE58A}">Order and Instructions</option>
+<option value="{98AB3291-325A-49E6-9D3C-ABA4A7A74401}">Orders</option>
+<option value="{EEAB4063-A90A-4811-B76C-3C891AD837F3}">Policies</option>
+<option value="{B6E48537-6016-4B2A-BAE1-14CD34D51952}">Policy</option>
+<option value="{56112465-DC92-4936-AFDC-7C633A5FE158}">Policy and Process</option>
+<option value="{EC9A082B-17FC-485E-844A-45D114FA66F1}">President Statement</option>
+<option value="{6A2C353A-3884-461C-8967-6876519DB26A}">Prime Minister Decision</option>
+<option value="{CD8EE7D2-4CC4-4E04-A71C-05161D244468}">Procedures</option>
+<option value="{B144CC2A-1326-40AB-9E48-7F54C53ACF62}">Procedures and Standards</option>
+<option value="{41A922B7-E0CD-4898-AE04-96C1D42F0D08}">Process</option>
+<option value="{082D5B14-5BF7-4588-9A6F-86C7BE1B4C1B}">Regulation</option>
+<option value="{D6B08093-6070-4879-8A7A-76052EB5FE97}">Regulations</option>
+<option value="{0CF68501-8E91-4F61-99E6-F4EBE17D6D75}">Report</option>
+<option value="{0E228DE0-46BF-457D-AB8A-1788CFDC0F55}">Requests</option>
+<option value="{B3376DA1-25E2-44B9-B3F2-81C186F23D1B}">Response document</option>
+<option value="{255B2755-43E1-4F58-8618-6524A6F54157}">Response Document</option>
+<option value="{E0C308F3-A05B-4BB1-8635-3D5674501D74}">Review document</option>
+<option value="{43398CBB-FA95-4A8F-B0B3-B4170940843B}">RIAO</option>
+<option value="{E6CABF02-1D94-4FC7-9269-588AEBF8732B}">Rules</option>
+<option value="{D429FE3F-FC35-4086-82DB-E9B3CFF145D3}">Sector Review</option>
+<option value="{856BF872-185F-4B84-B73D-604D7E0B628A}">Strategy</option>
+<option value="{EC467ACA-6C09-4F22-B74F-FB327224338B}">Transfer of Control</option>
+</select>
+
+                    </div>
+                </div>
+            </div>
+			<div class="col-xl-1 col-md-6">
+                <label for="sbmtBtn" class="col-12 d-none d-md-block d-xl-none col-form-label"><span class="sr-only">Search</span></label>
+                <button id="sbmtBtn" class="btn btn-light btn-block" type="submit"><span class="fa fa-search"></span>
+				<span class="sr-only">Search</span>
+				</button>
+            </div>
+        <input type="hidden" name="__ncforminfo" value="21MD_vT_ceetZPHtI7FTAb5NubcLKAFKPv7GsrccdDeVni0HeXNe8IxZHcajdYCqT2HJKZMv52os7zU-BH7fu6AFY1QQaV3R"/></form>
+
+    </div>
+</div>
+
+<div class="container-fluid pt-5 px-lg-5">
+    <div class="no-gutters align-items-stretch newsEventBlocks">
+        
+        <div class="row d-md-flex newsList">
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>15</span><span>September 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/market-information-gathering" class="black" >
+								<span class="sr-only">15 September 2025 </span>
+								Public Consultation - Regulation for  Market Information Gathering</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/market-information-gathering"><i aria-hidden="true" class="material-icons">attachment</i>2 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>15</span><span>September 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/public-consultation---regulation-of-postal-market-definition-and-dominance-designation" class="black" >
+								<span class="sr-only">15 September 2025 </span>
+								Public Consultation - Regulation of Postal Market Definition and Dominance Designation (MDDD)</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/public-consultation---regulation-of-postal-market-definition-and-dominance-designation"><i aria-hidden="true" class="material-icons">attachment</i>2 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>15</span><span>September 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/public-consultation---regulation-of-postal-regulatory-accounting-system" class="black" >
+								<span class="sr-only">15 September 2025 </span>
+								Public Consultation - Regulation of Postal Regulatory Accounting System</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/public-consultation---regulation-of-postal-regulatory-accounting-system"><i aria-hidden="true" class="material-icons">attachment</i>2 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>14</span><span>September 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/consumer-satisfaction-with-sps-complaints-process-survey-report" class="black" >
+								<span class="sr-only">14 September 2025 </span>
+								Survey Report - Consumer Satisfaction with Telecom Service Providers’ Complaints Process</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/consumer-satisfaction-with-sps-complaints-process-survey-report"><i aria-hidden="true" class="material-icons">attachment</i>1 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>09</span><span>September 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/consultation-on-postal-technical-regulations" class="black" >
+								<span class="sr-only">09 September 2025 </span>
+								Public Consultation – Regulation of Postal Technical Specifications</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/consultation-on-postal-technical-regulations"><i aria-hidden="true" class="material-icons">attachment</i>2 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 d-flex">
+                        <div class="col" style="flex: 1;">
+                            <div class="libImg">
+                                <div class="newsDate"> <span>20</span><span>August 2025</span></div>
+                            </div>
+                            <div class="newsTxt">
+                                <h2 class="h5 newsTitle"><a href="/en/document/cra-competition-policy-update-20-august-2025" class="black" >
+								<span class="sr-only">20 August 2025 </span>
+								Public Consultation - CRA Competition Policy Update</a></h2>
+                                <hr />
+                            </div>
+                            <div class="libSection">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                    </div>
+                                </div>
+                                <h4 class="libAttach"><a href="/en/document/cra-competition-policy-update-20-august-2025"><i aria-hidden="true" class="material-icons">attachment</i>3 Attachments</a></h4>
+                            </div>
+
+                            <div class="colBottomGrad" style="    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;"></div>
+                        </div>
+                    </div>
+        </div>
+        <!-- end .newsSec -->
+
+<div class="news-paging">
+                <nav aria-label="Page navigation example">
+
+
+<ul class="pagination justify-content-center">
+        <li class="page-item" style="display:none">
+            <a class="page-link" href=""><span class="sr-only">Previous Page</span></a>
+        </li>
+    
+            <li class="page-item active"><a class="page-link" href="javascript:void(0);"><span class="sr-only">Current Page</span> 1</a></li>
+            <li class="page-item"><a class="page-link" href="?page=2"><span class="sr-only">Page</span> 2</a></li>
+            <li class="page-item"><a class="page-link" href="?page=3"><span class="sr-only">Page</span> 3</a></li>
+            <li class="page-item"><a class="page-link" href="?page=4"><span class="sr-only">Page</span> 4</a></li>
+            <li class="page-item"><a class="page-link" href="?page=5"><span class="sr-only">Page</span> 5</a></li>
+            <li class="page-item"><a class="page-link" href="?page=6"><span class="sr-only">Page</span> 6</a></li>
+            <li class="page-item"><a class="page-link" href="?page=7"><span class="sr-only">Page</span> 7</a></li>
+            <li class="page-item"><a class="page-link" href="?page=8"><span class="sr-only">Page</span> 8</a></li>
+            <li class="page-item"><a class="page-link" href="?page=9"><span class="sr-only">Page</span> 9</a></li>
+            <li class="page-item"><a class="page-link" href="?page=10"><span class="sr-only">Page</span> 10</a></li>
+            <li class="page-item"><a class="page-link" href="?page=2"><i aria-hidden="true" class="material-icons">chevron_right</i><span class="sr-only">Next Page</span></a></li>
+    </ul>
+
+<style>
+    .pagination {
+        display: block;
+        text-align: center;
+    }
+
+        .pagination .page-item {
+            display: inline-table;
+            vertical-align: middle;
+        }
+
+    .news-paging .page-item:first-child .page-link, .news-paging .page-item:last-child .page-link {
+        margin: 0px 10px;
+        height: 32px;
+        width: 32px;
+        line-height: 48px;
+    }
+
+    html[dir="rtl"] .news-paging .page-item:first-child .page-link,
+    html[dir="rtl"] .news-paging .page-item:last-child .page-link {
+        transform: rotateZ(180deg);
+    }
+</style>
+
+                </nav>
+            </div>
+
+
+    </div>
+    <!-- end .newsEventBlocks -->
+</div>
+ 
+
+    <footer>
+    <div class="container-fluid px-lg-5">
+        <div class="row align-items-stretch">
+            
+<div class="col-md-6 col-lg-4 col-xl-2">
+    <ul>
+            <li>
+                <a href="/en/about-us">About CRA</a>
+            </li>
+            <li>
+                <a href="/en/Law-and-Regulations">Law and Regulations</a>
+            </li>
+            <li>
+                <a href="/en/Services">Services</a>
+            </li>
+            <li>
+                <a href="/en/Document">Documents</a>
+            </li>
+</ul></div><div class='col-md-6 col-lg-4 col-xl-2'><ul>            <li>
+                <a href="/en/Privacy-Policy">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="/en/Terms-of-Use">Terms of Use</a>
+            </li>
+            <li>
+                <a href="/en/Press-Releases">Press Releases</a>
+            </li>
+            <li>
+                <a href="/en/regulatory">Regulatory</a>
+            </li>
+    </ul>
+</div>
+
+
+            <div class="col-md-6 col-lg-4 col-xl-2">
+                
+
+
+<p>Contact Us</p>
+<div class="fooContact">
+<p><img alt="Phone" src="/assets/cra/images/phone-icon.png" style="width: 20px; height: 20px;" /><span class="d-inline-block fs-16">&nbsp; &nbsp;103 / +974 4499 5535</span></p>
+<p><img alt="FAX" src="/assets/cra/images/fax-icon.png" style="width: 20px; height: 20px;" />&nbsp;&nbsp;&nbsp;<span class="d-inline-block fs-16">+974 4499 5515&nbsp;</span></p>
+<p><img alt="Email" src="/assets/cra/images/email-icon.png" style="width: 20px; height: 20px;" />&nbsp; <span class="d-inline-block fs-16">&nbsp;&nbsp;<a class="d-inline-block" href="mailto: info@cra.gov.qa">info@cra.gov.qa</a></span></p>
+</div>
+
+
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-2">
+                
+
+Useful Links <br />
+<div class="fooContact">
+    <ul>
+            <li>
+                <a href="/en/Services/Telecommunications/e-Spectrum-Services-Portal" target="_blank">
+                    e-Spectrum Service Portal 
+                </a>
+            </li>
+            <li>
+                <a href="https://portal.www.gov.qa/wps/portal" target="_blank">
+                    Hukoomi
+                </a>
+            </li>
+            <li>
+                <a href="https://www.diwan.gov.qa/?sc_lang=en" target="_blank">
+                    Amiri Diwan
+                </a>
+            </li>
+    </ul>
+</div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-2">
+                
+
+
+    
+    <div class="fooContact text-center">
+        <p>
+            <a class="d-inline-block" href="https://www.facebook.com/CRAqatar/"><img src="/-/media/Feature/SocialMedia/foo_fb.ashx?h=40&amp;la=en&amp;w=40&amp;hash=DE37A16B5BEE7B56F08B54A4A1C544E9EC4FABCE" alt="Facebook" width="40" height="40" DisableWebEdit="False" /></a>
+            <a class="d-inline-block" href="https://www.linkedin.com/company/communications-regulatory-authority"><img src="/-/media/Feature/SocialMedia/foo_in.ashx?h=40&amp;la=en&amp;w=40&amp;hash=DE53ABD3F9FFAF09434AA11C2F9B84DE1A2CF732" alt="LinkedIn" width="40" height="40" DisableWebEdit="False" /></a>
+            <a class="d-inline-block" href="https://twitter.com/CRAqatar"><img src="/-/media/Feature/SocialMedia/foo_twitter.ashx?h=40&amp;la=en&amp;w=40&amp;hash=2B75687C4B7E183EB1EE72D333A2854B1F0DC554" alt="Twitter" width="40" height="40" DisableWebEdit="False" /></a>
+            <a class="d-inline-block" href="https://www.youtube.com/channel/UCtFMM_nwlKIlonCfwphevzw"><img src="/-/media/Feature/SocialMedia/foo_youtube.ashx?h=40&amp;la=en&amp;w=40&amp;hash=A33A4F0C162FB218BC5D97BD4436ECDDF5A53FE4" alt="YouTube" width="40" height="40" DisableWebEdit="False" /></a>
+</p><p>            <a class="d-inline-block" href="https://www.instagram.com/craqatar/"><img src="/-/media/Feature/SocialMedia/foo_insta/Instagram.ashx?h=40&amp;la=en&amp;w=40&amp;hash=EF82E77212BE8F1AB3BF2E2E0ECC1E1CD592688E" alt="instagram" width="40" height="40" DisableWebEdit="False" /></a>
+        </p>
+    </div>
+
+
+            </div>
+           
+        </div>
+        <div class="copyright text-center"> 
+
+
+<span>CRA uses <a rel="noopener noreferrer" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License.</a></span>
+<a target="_blank" href="https://monitor.mada.org.qa/website/en/CPabOdJzvxwVHOXjwBOOtBmunKOFuXQE6HSqV9asFP6znQShr0873AL9N531"><img src="https://monitor.mada.org.qa/acc/en/CPabOdJzvxwVHOXjwBOOtBmunKOFuXQE6HSqV9asFP6znQShr0873AL9N531" alt="Mada Digital Accreditation Certified" /></a>
+
+<div class="slideout tw">
+<img style="float: left;" alt="twitter" src="/-/media/CRA/flyout_tw.png" /><a style="float: left;" href="https://twitter.com/CRAqatar">TWITTER</a>
+</div>
+<div class="slideout ln">
+<img style="float: left;" alt="LINKEDIN" src="/-/media/CRA/flyout_ln.png" /><a style="float: left;" href="https://www.linkedin.com/company/communications-regulatory-authority">LINKEDIN</a>
+</div></div>
+    </div>
+</footer>
+
+    <script src="/assets/cra/js/css3-animate-it.js"></script>
+
+
+    
+    <script type="text/javascript">
+
+        $("#tPlus").click(function () {
+         var currentfontsize = $("*").css("font-size");
+            var cssfontsize = currentfontsize.replace("px", "");
+            var csssizeinint = parseInt(cssfontsize);
+            var resize = csssizeinint + 1;
+            $("*").css("font-size", resize + "px");
+            /* targetting inlined font-size in pixels */
+            $('*').each(function (index, value) {
+                if (/font-size:[^;]+px/.test($(this).attr('style'))) {
+                    $(this).css("font-size", "+=1");
+                }
+            });
+            SetPlusFontSize();
+        });
+        $("#tMinus").click(function () {
+            var currentfontsize = $("*").css("font-size");
+            var cssfontsize = currentfontsize.replace("px", "");
+            var csssizeinint = parseInt(cssfontsize);
+            var resize = csssizeinint - 1;
+            $("*").css("font-size", resize + "px");
+            /* targetting inlined font-size in pixels */
+            $('*').each(function (index, value) {
+                if (/font-size:[^;]+px/.test($(this).attr('style'))) {
+                    $(this).css("font-size", "-=1");
+                }
+            });
+            SetMinusFontSize();
+        });
+
+        function getPlusFontSize() {
+            var Setvalue = 0;
+            if ($.cookie("getPluscookie") == null || $.cookie("getPluscookie") == undefined)
+                $.cookie("getPluscookie", 0, { expires: 14, path: '/' });
+            var getcookievalue = $.cookie("getPluscookie");
+
+            return getcookievalue;
+
+
+        }
+        function SetPlusFontSize() {
+            var currentcookie = getPlusFontSize();
+            var votevalue = parseInt(currentcookie);
+            votevalue++;
+            $.removeCookie("getPluscookie");
+            $.cookie("getPluscookie", votevalue, { expires: 14, path: '/' });
+
+        }
+        function SetMinusFontSize() {
+            var currentcookie = getPlusFontSize();
+            var votevalue = parseInt(currentcookie);
+            votevalue--;
+            $.removeCookie("getPluscookie");
+            $.cookie("getPluscookie", votevalue, { expires: 14, path: '/' });
+        }
+        $(document).ready(function () {
+
+            var currentcookie = getPlusFontSize();
+
+            var valueinNumber = parseInt(currentcookie);
+
+            if (valueinNumber > 0) {
+                var currentfontsize = $("*").css("font-size");
+                var cssfontsize = currentfontsize.replace("px", "");
+                var csssizeinint = parseInt(cssfontsize);
+                var resize = csssizeinint + Math.abs(valueinNumber);
+                $("*").css("font-size", resize + "px");
+                /* targetting inlined font-size in pixels */
+                $('*').each(function (index, value) {
+                    if (/font-size:[^;]+px/.test($(this).attr('style'))) {
+                        $(this).css("font-size", "+=" + Math.abs(valueinNumber) + "");
+                    }
+                });
+            }
+            else if (valueinNumber < 0) {
+                var currentfontsize = $("*").css("font-size");
+                var cssfontsize = currentfontsize.replace("px", "");
+                var csssizeinint = parseInt(cssfontsize);
+                var resize = csssizeinint - Math.abs(valueinNumber);
+                $("*").css("font-size", resize + "px");
+                /* targetting inlined font-size in pixels */
+                $('*').each(function (index, value) {
+                    if (/font-size:[^;]+px/.test($(this).attr('style'))) {
+                        $(this).css("font-size", "-=" + Math.abs(valueinNumber) + "");
+                    }
+                });
+            }
+
+        });
+    </script>
+
+    
+	
+    <script type="text/javascript">
+
+			$("#txtReset").click(function () {
+                event.preventDefault(), $("html").css("font-size", "16px");
+                $('.txtSizeBtns').find('a').removeClass('active');
+               // $(this).addClass('active');
+            });
+            $("#txtPlus").click(function () {
+                event.preventDefault(), $("html").css("font-size", "18px");
+                $('.txtSizeBtns').find('a').removeClass('active');
+                $(this).addClass('active');
+            });
+            $("#txtMinus").click(function () {
+                event.preventDefault(), $("html").css("font-size", "14px");
+                $('.txtSizeBtns').find('a').removeClass('active');
+                $(this).addClass('active');
+            });
+			
+        $('a.bright').click(function () {
+
+            SetCookie();
+            var currentcookie = getCookie();
+
+            if (currentcookie == 'false') {
+                $("link#blind").attr('disabled', false);
+            }
+            else {
+                $("link#blind").attr('disabled', true);
+            }
+        });
+
+        function getCookie() {
+            if ($.cookie("getFillcookie") == null || $.cookie("getFillcookie") == undefined)
+                $.cookie("getFillcookie", "true", { expires: 14, path: '/' });
+
+            var getcookievalue = $.cookie("getFillcookie");
+
+            return getcookievalue;
+
+        }
+        function SetCookie() {
+            var currentcookie = getCookie();
+            $.removeCookie("getFillcookie");
+            if (currentcookie === 'false')
+                $.cookie("getFillcookie", "true", { expires: 14, path: '/' });
+            else
+                $.cookie("getFillcookie", "false", { expires: 14, path: '/' });
+        }
+        $(document).ready(function () {
+            var currentcookie = getCookie();
+            if (currentcookie == 'false') {
+                $("link#blind").attr('disabled', false);
+            }
+            else {
+                $("link#blind").attr('disabled', true);
+            }
+        });
+    </script>
+    <script type="text/javascript">
+ $(document).ready(function() {
+	
+	
+		// $("a:not([tabindex])").attr("tabindex", "0");	
+			
+	 if ( $('html').attr('dir') == 'rtl' ) {
+			$("a#langSel").attr('aria-label', 'English');
+			$("a#langSel").attr('lang', 'en');
+			$(".dateFTlabel.en").remove();
+	} else {
+			$("a#langSel").attr('aria-label', 'عربي');
+			$("a#langSel").attr('lang', 'ar');
+			$(".dateFTlabel.ar").remove();
+	}
+	
+	  
+	//  $(".carousel-caption .readBtn").on("focus", function () {
+	//	$("#bannerSlider").carousel('pause');
+	//  });
+	//  $(".carousel-caption .readBtn").on("blur", function () {
+	//	$("#bannerSlider").carousel('cycle');
+	//  });
+
+
+$(".twitterHead").on("focus", function () {
+		$(".twitter-timeline.twitter-timeline-rendered").attr('tabindex', '-1');
+});
+
+ $(".navbar-brand img").attr("alt", "Communication regulatory Authority, homepage");
+ $(".pubDownload img").attr("alt", "Download Publication Document");
+ $(".pubDownload img, #bannerSlider .bnrImg").attr("aria-hidden", "true");
+
+$(".skipLink").on("click", function () {
+    $(".breadcrumbs li:first-child a, .carousel-caption a, .filterBox .firstSearchField").focus();
+});
+
+$(".carousel-control-next.page-link, .carousel-control-prev.page-link").on("click", function () {
+    $(".carousel-item.active .newsTitle a").focus();
+});
+
+$(".closeNav").on("click", function () {
+    $(".openNav").focus();
+});
+
+
+
+$(".carousel-sub .breadcrumbs li a").removeAttr("title");
+
+ $('.datepicker').datepicker();
+
+    $("#content-slider").lightSlider({
+        loop:true,
+        keyPress:true,
+        rtl:true,
+        item:4,
+        slideMove:1,
+        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+        speed:600,
+        addClass:'test',
+        //prevHtml:'<div>prev</div>',
+        responsive : [
+            {
+                breakpoint:1280,
+                settings: {
+                    item:3,
+                    slideMove:1
+                  }
+            },
+            {
+                breakpoint:1023,
+                settings: {
+                    item:2,
+                    slideMove:1
+                  }
+            },
+            {
+                breakpoint:930,
+                settings: {
+                    item:1,
+                    slideMove:1
+                  }
+            }
+        ]
+    });
+});
+
+$(window).on('load', function () {
+            $("img:not([alt])").attr("alt", "Communications Regulatory Authority");
+			$('img[alt=""]').attr('alt', 'Communications Regulatory Authority');
+			$( "h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty" ).remove();
+			$( ".validation-summary-errors").attr("role", "alert");
+			$(".craPub .lSSlideOuter .lSPager.lSpg>li a, .pubDownload").attr("tabindex", "-1");
+			$( ".servicesLink img").attr("aria-hidden", "true");
+			
+			$(".bott3Sec .survey h4").replaceWith(function() {
+                return '<h2 class="h4 fWeightNor">' + $(this).text() + '</h2>';
+			});
+			$(".required").append("<span class='sr-only'>Required Field</span>");
+			$("form .success").attr("role", "alert");
+			$("form .success").attr("tabindex", "0");
+			$("form .success").focus();
+			$("form .success").addClass("alert alert-success");
+			$("#twitter-widget-0, .twitter-timeline").attr('tabindex', '-1');
+			
+			$("label.custom-control-input:empty").remove();
+			
+});
+
+(function($){
+	$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+	  if (!$(this).next().hasClass('show')) {
+		$(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+	  }
+	  var $subMenu = $(this).next(".dropdown-menu");
+	  $subMenu.toggleClass('show');
+
+	  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+		$('.dropdown-submenu .show').removeClass("show");
+	  });
+
+	  return false;
+	});
+})(jQuery)
+
+
+    </script>
+	
+
+   <!--
+   // Commented this render form scripts and added as individual paths, becuase it is giving conflict in survey page
+   
+     
+   
+   -->
+   
+   
+<script src="/sitecore%20modules/Web/ExperienceForms/scripts/jquery.validate.min.js"></script>
+<script src="/sitecore%20modules/Web/ExperienceForms/scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="/sitecore%20modules/Web/ExperienceForms/scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script src="/sitecore%20modules/Web/ExperienceForms/scripts/form.validate.js"></script>
+<script src="/sitecore%20modules/Web/ExperienceForms/scripts/form.tracking.js"></script>
+
+<script type="text/javascript">
+function openChatArea() {
+	$("#myIframe").each(function (index) {
+		$(this).contents().find('#BotChatElement').css({ background: '#18486c' });
+		$('#myIframe').contents().find("head").append($("<style type='text/css'>.css-115fwte svg, [data-css-115fwte] svg {fill: #18486c;}</style>"));
+	});
+}
+$(document).ready(function () {
+	$('#chatControl').click(function () {
+		$('#chatArea').show();
+		$('#chatArea').css('display','block');
+		$('#chatArea').css('visibility','visible');				
+		$('#chatControl').hide();
+	});
+	$('#closeChat').click(function () {
+		$('#chatArea').hide();
+		$('#chatArea').css('display','none');
+		$('#chatArea').css('visibility','hidden');				
+		$('#chatControl').show();
+		
+	});
+	$('#refreshChat').click(function () {
+		document.getElementById('myIframe').src = document.getElementById('myIframe').src				
+	});
+
+	openChatArea();
+			
+})
+</script>  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3J07KETE26"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3J07KETE26');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-PQ933JN
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script type="text/javascript" src="https://cdn.infisecure.com/barracuda.js"></script><script type="text/javascript" src="/bnith__d_SpA7AwBn_e0LJzPB_jKFd7xLfJeKB2kUrM87tZR0Jw6MHOK-t1AzIxORpn8Xyh"></script> <script language="JavaScript" type="text/javascript">const _0x35e8=['visitorId','18127kSXadA','356575NPKVMA','7306axxsAH','get','657833TzFjkt','717302TQdBjl','34lMHocq','x-bni-rncf=1758238592174;expires=Thu, 01 Jan 2037 00:00:00 UTC;path=/;','61XMWbpU','cookie',';expires=Thu, 01 Jan 2037 00:00:00 UTC;path=/;','then','651866OSUgMa','811155xdatvf','x-bni-fpc='];function _0x258e(_0x5954fe,_0x43567d){return _0x258e=function(_0x35e81f,_0x258e26){_0x35e81f=_0x35e81f-0x179;let _0x1280dc=_0x35e8[_0x35e81f];return _0x1280dc;},_0x258e(_0x5954fe,_0x43567d);}(function(_0x5674de,_0xdcf1af){const _0x512a29=_0x258e;while(!![]){try{const _0x55f636=parseInt(_0x512a29(0x17b))+-parseInt(_0x512a29(0x179))*parseInt(_0x512a29(0x17f))+-parseInt(_0x512a29(0x183))+-parseInt(_0x512a29(0x184))+parseInt(_0x512a29(0x187))*parseInt(_0x512a29(0x17d))+parseInt(_0x512a29(0x188))+parseInt(_0x512a29(0x17c));if(_0x55f636===_0xdcf1af)break;else _0x5674de['push'](_0x5674de['shift']());}catch(_0xd3a1ce){_0x5674de['push'](_0x5674de['shift']());}}}(_0x35e8,0x6b42d));function getClientIdentity(){const _0x47e86b=_0x258e,_0x448fbc=FingerprintJS['load']();_0x448fbc[_0x47e86b(0x182)](_0x4bb924=>_0x4bb924[_0x47e86b(0x17a)]())[_0x47e86b(0x182)](_0x2f8ca1=>{const _0x44872c=_0x47e86b,_0xa48f50=_0x2f8ca1[_0x44872c(0x186)];document[_0x44872c(0x180)]=_0x44872c(0x185)+_0xa48f50+_0x44872c(0x181),document[_0x44872c(0x180)]=_0x44872c(0x17e);});}getClientIdentity();</script></body>
+
+</html>
